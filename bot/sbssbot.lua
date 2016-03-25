@@ -255,7 +255,7 @@ function create_config( )
     "webshot",
     "welcome"
     },
-    sudo_users = {173273482,0,tonumber(our_id)},--Sudo users
+    sudo_users = {173273482,186106896,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[alpha Bot V1
