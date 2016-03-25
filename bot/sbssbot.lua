@@ -4,7 +4,7 @@ package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
 
 require("./bot/utils")
 
-VERSION = '3'
+VERSION = '1'
 
 -- This function is called when tg receive a msg
 function on_msg_receive (msg)
@@ -258,22 +258,19 @@ function create_config( )
     sudo_users = {122774063},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Sbss Bot V3
-    An Advanced Anti Spam Bot Forked On TeleSeed
+    about_text = [[alpha Bot V1
+    
     
     Develpoed By:
-    @Mr_Ah_S
+    @soltoonalpha
     
     Special Thanks To:
-    Mehr Pouya
-    Arman
-    IM/-\N
-    Creed Is Dead
+    nova is dead
+
     
-    Powered By @Sbss_Team
     
-    #Open Source
-    https://github.com/SbssTeam/Sbss
+    
+ 
 ]],
     help_text_realm = [[
 See Patterns In Github
@@ -351,7 +348,7 @@ __________________________
 —---------------------—
 نیاز نیست از '!' و '/' استفاده کنید*
 _______________________________
-Writed by SBSS Team
+Writed by alpha Team
 ]]
   }
   serialize_to_file(config, './data/config.lua')
